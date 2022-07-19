@@ -1,0 +1,303 @@
+:root {
+  --slate-900: #0f172a;
+  --slate-800: #1e293b;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --slate-200: #e2e8f0;
+  --slate-50: #f8fafc;
+  --red-500: #ef4444;
+}
+
+@font-face {
+  font-family: "Courgette";
+  src: url(../../assets/webfont/Courgette/Courgette-Regular.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url(../../assets/webfont/Signika/Signika-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url(../../assets/webfont/Signika/Signika-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url(../../assets/webfont/Signika/Signika-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url(../../assets/webfont/Signika/Signika-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Signika";
+  src: url(../../assets/webfont/Signika/Signika-Light.ttf) format("truetype");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Signika", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  background-color: var(--slate-50);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courgette", sans-serif !important;
+  text-align: center;
+  color: var(--slate-900);
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: var(--slate-50) !important;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+main {
+  font-size: 20px;
+}
+
+/* Header atau Navbar */
+header {
+  height: 70px;
+  background-color: var(--slate-900);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--slate-50);
+  padding: 0 60px;
+}
+
+.batas {
+  margin: 0 25px 0 35px;
+  width: 1px;
+  padding: 18px 0;
+  background-color: var(--slate-500);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 20px;
+}
+
+nav > a {
+  list-style-type: none;
+  margin-right: 25px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--slate-200);
+  border: 1px solid var(--slate-900);
+}
+
+nav > a:hover {
+  /* background: linear-gradient(45deg, #1e293b, #334155); */
+  border: 1px solid var(--slate-200);
+  color: var(--slate-200);
+  box-shadow: 2px 2px 0px 0px rgba(226, 232, 240, 1);
+  -webkit-box-shadow: 2px 2px 0px 0px rgba(226, 232, 240, 1);
+  -moz-box-shadow: 2px 2px 0px 0px rgba(226, 232, 240, 1);
+}
+/* Akhir Header atau Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  padding: 70px;
+  background-color: var(--slate-800);
+  color: var(--slate-50);
+}
+
+.heading > p {
+  font-size: 20px;
+}
+
+.jumbotron > .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.jumbotron > .container > .heading {
+  margin: 0 40px;
+}
+/* AKhir jumbotron */
+
+.border-tumpul {
+  border-radius: 8px;
+}
+
+section {
+  margin: 0 40px 80px 40px;
+  color: var(--slate-900);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tentang */
+#tentang > p {
+  width: 75%;
+  text-align: center;
+}
+/* Akhir tentang */
+
+/* Desktop art */
+#desktop .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#desktop .container figure {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 40px 0 0 0;
+  padding: 20px 30px;
+  border: 1px solid var(--slate-800);
+  border-radius: 8px;
+  box-shadow: 6px 6px 0px 0px rgba(30, 41, 59, 1);
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(30, 41, 59, 1);
+  -moz-box-shadow: 6px 6px 0px 0px rgba(30, 41, 59, 1);
+}
+
+#desktop .container figure img,
+#desktop .container figure figcaption {
+  margin: 10px 15px;
+  width: 50%;
+}
+
+.row-reverse {
+  flex-direction: row-reverse !important;
+}
+/* AKhir desktop art */
+
+/* Biodata */
+#biodata > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  flex-basis: 50%;
+  padding: 20px 30px;
+  margin: 40px 0 0 0;
+  border: 1px solid var(--slate-800);
+  border-radius: 8px;
+  box-shadow: 6px 6px 0px 0px rgba(30, 41, 59, 1);
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(30, 41, 59, 1);
+  -moz-box-shadow: 6px 6px 0px 0px rgba(30, 41, 59, 1);
+}
+
+#biodata .container li {
+  list-style-type: none;
+  margin: 0 0 10px 0;
+}
+
+#biodata .container li span {
+  font-weight: 700;
+  font-family: "Courgette";
+  font-size: 18px;
+}
+
+#biodata .container li p {
+  margin: 5px 0;
+}
+/* Akhir biodata */
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: var(--slate-900);
+  color: var(--slate-200);
+}
+
+footer p span {
+  color: var(--red-500);
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--slate-200);
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+/* Akhir Footer */
+
+.tux {
+  position: absolute;
+  z-index: 0;
+  right: 110px;
+  top: 140px;
+  animation: tux 5s infinite linear;
+}
+
+@keyframes tux {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-10px, 10px);
+  }
+  50% {
+    transform: translate(-20px, 20px);
+  }
+  75% {
+    transform: translate(-10px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.ubuntu {
+  position: absolute;
+  z-index: 10;
+  left: 120px;
+  top: 275px;
+  animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
