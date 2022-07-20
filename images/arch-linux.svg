@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-label="Arch Linux"
+   role="img"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="arch putih.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.47118962"
+     inkscape:cx="81.708082"
+     inkscape:cy="290.75343"
+     inkscape:window-width="1366"
+     inkscape:window-height="695"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="m 254.16145,47.076881 c -18.24851,45.621261 -29.97969,74.297489 -50.83513,118.615289 13.03465,14.33812 28.67623,29.97971 53.44206,46.92475 -27.37276,-10.42772 -45.62127,-22.15891 -58.65591,-33.8901 -27.37278,56.049 -69.08365,134.2569 -152.505409,286.76229 65.173249,-39.10394 117.311839,-62.56631 165.540049,-71.69056 -2.60693,-9.12425 -3.91039,-18.24852 -3.91039,-28.67624 v -1.30346 c 1.30346,-43.01434 23.46237,-75.60096 49.53166,-72.99403 26.0693,1.30346 46.92475,37.80048 45.62128,80.81482 l -2.60693,22.15891 c 46.92474,9.12425 97.75988,33.89008 162.93308,70.3871 l -35.1935,-65.17324 c -16.9451,-13.03465 -35.1936,-29.9797 -71.69059,-49.53168 24.76579,6.51733 43.01439,14.33812 57.35249,22.15891 C 301.0862,164.38871 291.96194,137.01595 254.16145,45.773416 Z"
+     fill="#1793d1"
+     id="path4"
+     style="stroke-width:1.303;stroke:none;stroke-opacity:1;fill:#f8fafc;stroke-dasharray:none;fill-opacity:1" />
+</svg>

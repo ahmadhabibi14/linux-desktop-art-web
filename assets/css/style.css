@@ -8,6 +8,20 @@
   --red-500: #ef4444;
 }
 
+html::-webkit-scrollbar{
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track{
+  background: var(--slate-900);
+}
+
+html::-webkit-scrollbar-thumb{
+  background: var(--slate-500);
+  border-radius: 5px;
+}
+
+/* Font Family */
 @font-face {
   font-family: "Courgette";
   src: url(../../assets/webfont/Courgette/Courgette-Regular.ttf)
@@ -37,6 +51,10 @@
 @font-face {
   font-family: "Signika";
   src: url(../../assets/webfont/Signika/Signika-Light.ttf) format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html,
@@ -74,6 +92,10 @@ h2 {
 main {
   font-size: 20px;
 }
+
+/* #beranda, #tentang, #desktop, #biodata {
+  transition: all 1.5s linear;
+} */
 
 /* Header atau Navbar */
 header {
@@ -201,6 +223,10 @@ section {
 .row-reverse {
   flex-direction: row-reverse !important;
 }
+
+#desktop .container li {
+  font-family: "Courgette";
+}
 /* AKhir desktop art */
 
 /* Biodata */
@@ -228,6 +254,8 @@ section {
   font-weight: 700;
   font-family: "Courgette";
   font-size: 18px;
+  padding: 1px 0;
+  border-bottom: 2px solid var(--slate-900);
 }
 
 #biodata .container li p {
@@ -247,15 +275,6 @@ footer {
 
 footer p span {
   color: var(--red-500);
-}
-
-footer p a {
-  text-decoration: none;
-  color: var(--slate-200);
-}
-
-footer p a:hover {
-  text-decoration: underline;
 }
 /* Akhir Footer */
 
@@ -301,3 +320,23 @@ footer p a:hover {
     transform: rotate(360deg);
   }
 }
+
+/* Balik ke atas */
+#atas {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--slate-900);
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+
+#atas:hover {
+  background-color: var(--slate-800);
+}
+/* akhir balik ke atas */
