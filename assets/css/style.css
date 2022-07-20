@@ -1,6 +1,7 @@
 :root {
   --slate-900: #0f172a;
   --slate-800: #1e293b;
+  --slate-700: #334155;
   --slate-500: #64748b;
   --slate-400: #94a3b8;
   --slate-200: #e2e8f0;
@@ -325,7 +326,7 @@ footer p span {
 #atas {
   display: none;
   position: fixed;
-  bottom: 30px;
+  top: 30px;
   right: 30px;
   z-index: 99;
   border: none;
@@ -337,6 +338,6 @@ footer p span {
 }
 
 #atas:hover {
-  background-color: var(--slate-800);
+  background-color: var(--slate-700);
 }
 /* akhir balik ke atas */
