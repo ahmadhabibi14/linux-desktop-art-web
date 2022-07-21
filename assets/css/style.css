@@ -364,8 +364,12 @@ footer p span {
     padding: 0 20px;
   }
   
-  .mobile-hide {
+  .mobile-hide, .ubuntu, .tux {
     display: none !important;
+  }
+
+  .heading {
+    text-align: center;
   }
 
   .menu-mobile {
@@ -374,5 +378,29 @@ footer p span {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+  }
+
+  #desktop .container figure {
+    flex-direction: column;
+    margin: 20px 10px 0 10px;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  #desktop .container figure img,
+  #desktop .container figure figcaption {
+    width: 100%;
+  }
+
+  .row-reverse {
+    flex-direction: column !important;
+  }
+
+  #biodata .container {
+    flex-direction: column;
+  }
+
+  footer p {
+    margin: 5px;
   }
 }
