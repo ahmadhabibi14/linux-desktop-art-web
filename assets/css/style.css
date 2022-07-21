@@ -220,6 +220,10 @@ section {
   width: 50%;
 }
 
+#desktop > .container > figure > figcaption > ul {
+  padding-left: 30px;
+}
+
 .row-reverse {
   flex-direction: row-reverse !important;
 }
@@ -368,7 +372,16 @@ footer p span {
     display: none !important;
   }
 
-  .heading {
+  .jumbotron {
+    padding: 50px 20px;
+  }
+  
+  .jumbotron .container img {
+    width: 300px !important;
+  }
+
+.jumbotron .container .heading {
+    margin: 0 10px;
     text-align: center;
   }
 
@@ -380,16 +393,29 @@ footer p span {
     flex-direction: row;
   }
 
+  #desktop .container {
+    width: 100%;
+  }
+
   #desktop .container figure {
     flex-direction: column;
     margin: 20px 10px 0 10px;
-    width: 100%;
-    padding: 10px 20px;
+    width: 90%;
+    padding: 8px 13px;
   }
 
   #desktop .container figure img,
   #desktop .container figure figcaption {
     width: 100%;
+  }
+
+  #desktop .container figure figcaption {
+    margin: 0 20px 10px 20px
+  }
+
+  #desktop > .container > figure > figcaption > ul {
+    padding-left: 35px;
+    margin: 10px 0;
   }
 
   .row-reverse {
@@ -398,9 +424,41 @@ footer p span {
 
   #biodata .container {
     flex-direction: column;
+    margin: 20px 0 0 0;
+    width: 80%;
+    padding: 20px 20px;
+  }
+
+  #biodata .container img {
+    width: 100%;
+  }
+  
+  #biodata .container ul {
+    margin: 20px 0 0 0;
+    padding: 0 8px;
   }
 
   footer p {
     margin: 5px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin: 17px 0;
+    color: var(--slate-50) !important;
+  }
+  
+  h2 {
+    font-size: 35px;
+    margin: 17px 0;
+  }
+
+  section {
+    margin: 0 10px 50px 10px;
+  }
+
+  #tentang p {
+    width: 95%;
+    text-align: left;
   }
 }
