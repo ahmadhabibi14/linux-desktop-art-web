@@ -9,15 +9,15 @@
   --red-500: #ef4444;
 }
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
   width: 10px;
 }
 
-html::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track {
   background: var(--slate-900);
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
   background: var(--slate-500);
   border-radius: 5px;
 }
@@ -367,20 +367,22 @@ footer p span {
   header {
     padding: 0 20px;
   }
-  
-  .mobile-hide, .ubuntu, .tux {
+
+  .mobile-hide,
+  .ubuntu,
+  .tux {
     display: none !important;
   }
 
   .jumbotron {
     padding: 50px 20px;
   }
-  
+
   .jumbotron .container img {
     width: 300px !important;
   }
 
-.jumbotron .container .heading {
+  .jumbotron .container .heading {
     margin: 0 10px;
     text-align: center;
   }
@@ -388,9 +390,18 @@ footer p span {
   .menu-mobile {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
+  }
+
+  .menu-mobile a {
+    padding: 15px 0;
+    border-bottom: 3px solid var(--slate-900);
+  }
+
+  .menu-mobile a:hover {
+    border-bottom: 3px solid var(--slate-50);
   }
 
   #desktop .container {
@@ -410,7 +421,7 @@ footer p span {
   }
 
   #desktop .container figure figcaption {
-    margin: 0 20px 10px 20px
+    margin: 0 20px 10px 20px;
   }
 
   #desktop > .container > figure > figcaption > ul {
@@ -432,7 +443,7 @@ footer p span {
   #biodata .container img {
     width: 100%;
   }
-  
+
   #biodata .container ul {
     margin: 20px 0 0 0;
     padding: 0 8px;
@@ -447,10 +458,10 @@ footer p span {
     margin: 17px 0;
     color: var(--slate-50) !important;
   }
-  
+
   h2 {
     font-size: 35px;
-    margin: 17px 0;
+    margin: 0;
   }
 
   section {
