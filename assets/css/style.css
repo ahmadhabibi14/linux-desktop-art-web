@@ -472,4 +472,9 @@ footer p span {
     width: 95%;
     text-align: left;
   }
+
+  #atas {
+    bottom: 20px;
+    right: 20px;
+  }
 }
